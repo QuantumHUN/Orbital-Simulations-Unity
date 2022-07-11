@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Star
+  m_Shader: {fileID: -6465566751694194690, guid: 1ccce0b82ee0d3b47a2705a758c81059, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Cell_Change_Speed: 1
+    - Flare_Intensity: 2
+    - Pulse_Speed: 1
+    m_Colors:
+    - Base_Color: {r: 0.1226415, g: 0, b: 0, a: 0}
+    - Cell_Color: {r: 0.1226415, g: 0, b: 0, a: 0}
+    - Pattern_Color: {r: 0.8627451, g: 0, b: 0, a: 0}
+    - Pulse_Scale: {r: 1, g: 5, b: 0, a: 0}
+    - Star_Color: {r: 0.8490566, g: 0.2390334, b: 0, a: 0}
+  m_BuildTextureStacks: []
